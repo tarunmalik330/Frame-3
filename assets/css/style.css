@@ -369,6 +369,11 @@ label[for="menu_box"] {
 .accordion-button:focus {
   box-shadow: none !important;
 }
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: var(--light-yellow);
