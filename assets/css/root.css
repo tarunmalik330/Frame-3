@@ -10,3 +10,27 @@
   --light-yellow:#fff03f;
   --red:#f4241e;
 }
+.fs_20 {
+  font-size: var(--fs-20);
+}
+.fs_18 {
+  font-size: var(--fs-18);
+}
+.fs_24 {
+  font-size: var(--fs-24);
+}
+.fs_36 {
+  font-size: var(--fs-36);
+}
+.fs_48 {
+  font-size: var(--fs-48);
+}
+@media (max-width:576px) {
+:root{
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-36: 36px;
+  --fs-48: 36px;
+}
+}
